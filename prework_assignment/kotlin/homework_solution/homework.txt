@@ -1,0 +1,103 @@
+
+HOMEWORK 1
+/////////////////
+
+1. which of the following is NOT a benefit of using the Kotlin language?
+-> Your code complies faster in Kotlin
+
+2. How do you start the Kotlin REPL?
+-> Create a Kotlin project in IntelliJ IDEA, then select Tools>Kotlin>Kotlin REPL
+
+3. which of the following is NOT true about Kotlin and Java code?
+-> Kotlin code will run faster than java code
+
+/////////////////
+
+
+HOMEWORK 2
+/////////////////
+
+1. Which of the following declares an unchangeable list of string?
+-> val school = listOf("shark", "salmon", "minnow")
+
+2. What will be the output of the following code?
+-> 357
+
+3. What is the purpose of the question mark in this code?
+-> The variable rocks can be set to null
+
+/////////////////
+
+HOMEWORK 3
+/////////////////
+
+1. The contains(element: String) function returns true if the string element is contained in the string it's called on. what will be the output of the following code?
+-> pagoda, plastic plant, flowerpot
+
+2. In the following function definition, which one of the parameters if required?
+-> day
+
+3. You can pass a regular named function(not the result of calling it) to another function
+-> updateDirty(15, ::increaseDirty)
+
+/////////////////
+
+HOMEWORK 4
+/////////////////
+
+1. Classes have a special method that serves as a blueprint for creating objects of that class. what is the method called?
+-> A constructor
+
+2. Which of the following statements about interfaces and abstract classes is NOT correct?
+-> interfaces and abstract classes can be instantiated directly
+
+3. Which of the following is NOT a Kotlin visibility modifier for properties, method, etc?
+-> nosubclass
+
+4. Consider this data class: data class Fish(val name: String, val species: String, val colors: String). Which of the following is NOT valid code to create and destructure a Fish object?
+-> val (name4, sepecies4, colors4) = Fish("Harry", "halibut")
+
+5. Let's say you own a zoo with lots of animals that all need to be taken care of. Which of the following would NOT be part of implementing caretaking?
+-> An interface for giving clean water to an animal
+
+/////////////////
+
+HOMEWORK 5-1
+/////////////////
+
+1. Which one of the following returns a copy of a list?
+-> reversed()
+
+2. Which one of these extension functions on class AquariumPlant(val color: String, val size: Int, private val cost: Double, val leafy: Boolean) will give a compiler error?
+-> fun AquariumPlant.isExpensive() = cost > 10.00
+
+3. Which one of the following is not a place where you can define constants with const val?
+-> in regular classes
+
+/////////////////
+
+HOMEWORK 5-2 
+/////////////////
+
+1. Which of the following is the convention for naming a generic type?
+-> <T>
+
+2. A restriction on the types allowed for a generic type is called
+-> a generic constraint
+
+3. Reified means
+-> The generic type parameter has been made into a real type
+
+
+
+
+
+
+
+
+
+
+
+
+
+
